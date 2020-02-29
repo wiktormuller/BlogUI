@@ -11,6 +11,7 @@ body
 	color: #000;
 	font-size: 15px;
 	line-height: 1.5;
+	background: #EDF3F3;
 }
 
 a
@@ -37,6 +38,7 @@ button
 	align-items: center;
 	justify-content: space-between;
 	height: 60px;
+	background: #fff;
 }
 
 .main-nav ul
@@ -90,6 +92,11 @@ button
 	height: 60px;
 }
 
+.main-nav .search
+{
+	width: 100%;
+}
+
 .main-nav .search-btn
 {
 	top: 0;
@@ -111,7 +118,6 @@ button
 .main-nav .search-input
 {
 	top: 0;
-	position: absolute;
 	background: transparent;
 	padding: 0 20px 0 70px;
 	width: 100%;
@@ -130,7 +136,6 @@ button
 	margin-bottom: 65px;
 }
 
-<<<<<<< HEAD
 /* Content */
 
 .container
@@ -138,10 +143,7 @@ button
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-=======
-.container
-{
->>>>>>> 155662a62b1dad236e73a25a4a497b2014d59357
+	justify-content: center;
 	width: 100%;
 	max-width: 1140px;
 	margin: auto;
@@ -164,7 +166,8 @@ button
 	overflow: hidden;
 	border: 1px solid #ddd;
 	box-shadow: 0px 0px 5px rgba(0,0,0,0.1);
-	margin: 15px 15px 15px 15px;
+	margin: 15px;
+	background: #fff;
 }
 
 .card-image
@@ -181,7 +184,7 @@ button
 
 .title-navigator
 {
-
+	
 }
 
 .home-cards ul
@@ -212,14 +215,101 @@ button
 
 .load-more
 {
-	padding: 15px;
+	padding: 15px 40px;
 	margin-top: 15px;
-	width: 120px;
+	margin-bottom: 50px;
 	background: #C3D8F5;
-	
 }
 
-.load-more:hover
+/* Footer */
+
+.footer
 {
-	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	background: #fff;
+}
+
+.footer-inner
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 1140px;
+	margin-top: 40px;
+	margin-bottom: 70px;
+}
+
+.footer-column
+{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+.social-media
+{
+		margin-top: 10px;
+}
+
+.social-media li
+{
+	display: inline;
+	padding: 20px;
+}
+
+.footer-title
+{
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.footer-paragraph
+{
+	margin-bottom: 5px;
+}
+
+.footer-list
+{
+	margin-bottom: 5px;
+}
+
+.footer ul li
+{
+	display: inline;
+	padding-right: 20px;
+}
+
+.subsribe-area
+{
+	width: 100%;
+	background: #F5F7F6;
+}
+
+.subscribe-form
+{
+	background: #F5F7F6;
+}
+
+.subscribe-area .subscribe-btn
+{
+	width: 50px;
+	top: 0;
+	position: absolute;
+	width: 40px;
+	height: 60px;
+	padding: 20px;
+	margin-right: 20px;
+}
+
+.subscribe-input
+{
+	width: 350px;
+	height: 60px;
+	background: #F5F7F6;
+	padding: 0 70px 0 20px;
+	outline: none;
+	border: none;
 }
