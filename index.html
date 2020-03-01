@@ -9,10 +9,10 @@
 </head>
 <body>
 	<nav class="main-nav">
+		<a href="#" class="logo">
+			<img src="./img/logo.png">
+		</a>
 		<ul class="main-menu">
-			<a href="#" class="logo">
-				<img src="./img/logo.png">
-			</a>
 			<li>
 				<a href="#">Home</a>
 			</li>
@@ -28,6 +28,9 @@
 				<button class="search-btn" type="submit"><i class="fas fa-search"></i></button>
 				<input class="search-input" type="text" placeholder="Type of search">
 			</form>
+		</div>
+		<div class="menu-btn">
+			<i class="fas fa-bars fa-2x"></i>
 		</div>
 	</nav>
 	<header class="picture">
@@ -233,5 +236,9 @@
 			</div>
 		</div>
 	</footer>
+
+	<script>
+		document.querySelector('.menu-btn').addEventListener('click', () => document.querySelector('.main-menu').classList.toggle('show'))			
+	</script>
 </body>
 </html>
